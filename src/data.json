@@ -116,7 +116,7 @@
    },
    {
      "title": "JavaScript",
-     "image": "http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
      "description": "Programming language",
      "link": "https://en.wikipedia.org/wiki/JavaScript",
      "tag": "front-end"
