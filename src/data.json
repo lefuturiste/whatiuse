@@ -88,7 +88,7 @@
    },
    {
      "title": "MongoDB",
-     "image": "http://static.tumblr.com/lbtm3t2/8PAn0kziu/mongodb-logo.png",
+     "image": "https://static.tumblr.com/lbtm3t2/8PAn0kziu/mongodb-logo.png",
      "description": "NoSQL Database",
      "link": "https://www.mongodb.com/",
      "tag": "database"
