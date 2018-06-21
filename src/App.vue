@@ -6,7 +6,7 @@
         <div class="header-content container">
           <div class="header-title-container">
             <h1 class="header-title">What I use ?</h1>
-            <h2 class="header-description">List of all tools, platforms, technologies, languages which I use, sorted by categories.</h2>
+            <h2 class="header-description">List of all tools, platforms, technologies, languages that I use, categorized.</h2>
           </div>
           <div class="header-socials">
             <ul class="socials">
@@ -19,7 +19,7 @@
       </div>
       <div class="content-container">
         <div class="content-content container">
-          <scale-transition group>
+          <fade-transition group>
             <div class="content-items-mosaic" v-show="item_show" :key="item_show">
               <div class="item-card" v-for="item in items">
                 <div class="card-header">
@@ -30,7 +30,7 @@
                 </div>
               </div>
             </div>
-          </scale-transition>
+          </fade-transition>
           <div class="content-nav">
             <ul>
               <li @click="setTagView('all')" v-bind:class="{selected:is_all_selected}">
@@ -133,7 +133,7 @@ export default {
    color: white;
    border-bottom: 5px solid $border-color;
    width: 100%;
-   padding-top: 10em;
+   padding-top: 12vh;
    padding-bottom: 2em;
    .header-content {
      display: flex;
@@ -192,13 +192,13 @@ export default {
      .item-card {
        border-radius: $item-card-border-radius;
        border: 1px solid $item-card-border;
-       padding-left: 20px;
-       padding-right: 20px;
+       padding-left: 10%;
+       padding-right: 10%;
        .card-header {
          display: flex;
          justify-content: center;
          align-items: center;
-         padding: 30px;
+         padding: 25%;
          img {
            width: 100%;
            height: 100%;
@@ -304,5 +304,82 @@ export default {
      }
    }
  }
+
+ @media (max-width: 700px) {
+   .container {
+     width: 90%;
+   }
+    .header-container {
+
+      padding-top: 6vh;
+      .header-content {
+        display: block;
+        .header-title-container {
+          .header-title {
+            font-size: 3em;
+          }
+        }
+        .header-socials {
+          margin-top: 2em;
+          justify-content: center;
+          .socials {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+          }
+        }
+      }
+    }
+   .content-container {
+     .content-content {
+       display: flex;
+       flex-direction: column-reverse;
+       .content-items-mosaic {
+         margin-bottom: 3em;
+         display: grid;
+         grid-template-columns: repeat(2, 48%);
+         grid-gap: 10px;
+       }
+       .item-card {
+         padding: 10%;
+       }
+     }
+     .content-nav {
+       margin-bottom: 1.4em;
+       ul {
+         padding-left: 0;
+         top: 0;
+       }
+     }
+   }
+   .footer-container {
+     .footer-content {
+       .footer-logo {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         margin-bottom: 2em;
+       }
+       .footer-links {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         ul {
+           margin: 0 auto;;
+           width: 90%;
+         display: flex;
+         justify-content: space-between;
+           padding: 0;
+           li {
+             margin: 0;
+           }
+         }
+       }
+     }
+   }
+ }
+
 
 </style>
