@@ -1,63 +1,65 @@
 <template>
   <div id="app">
     <scale-transition>
-    <div v-show="show">
-      <div class="header-container">
-        <div class="header-content container">
-          <div class="header-title-container">
-            <h1 class="header-title">What I use ?</h1>
-            <h2 class="header-description">List of all tools, platforms, technologies, languages that I use, categorized.</h2>
-          </div>
-          <div class="header-socials">
-            <ul class="socials">
-              <li><a href="https://lefuturiste.fr" title="My website"><i class="fas fa-globe" /></a></li>
-              <li><a href="https://twitter.com/_le_futuriste" title="My Twitter"><i class="fab fa-twitter" /></a></li>
-              <li><a href="https://github.com/lefuturiste" title="My Github"><i class="fab fa-github" /></a></li>
-            </ul>
+      <div v-show="show">
+        <div class="header-container">
+          <div class="header-content container">
+            <div class="header-title-container">
+              <h1 class="header-title">What I use ?</h1>
+              <h2 class="header-description">List of all tools, platforms, technologies, languages that I use, categorized.</h2>
+            </div>
+            <div class="header-socials">
+              <ul class="socials">
+                <li><a href="https://lefuturiste.fr" title="My website"><i class="fas fa-globe" /></a></li>
+                <li><a href="https://twitter.com/_le_futuriste" title="My Twitter"><i class="fab fa-twitter" /></a></li>
+                <li><a href="https://github.com/lefuturiste" title="My Github"><i class="fab fa-github" /></a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="content-container">
-        <div class="content-content container">
-          <fade-transition group>
-            <div class="content-items-mosaic" v-show="item_show" :key="item_show">
-              <div class="item-card" v-for="item in items">
-                <div class="card-header">
-                    <img :src="item.image" :alt="item.title">
-                </div>
-                <div class="card-content">
-                  <div>{{item.title}}</div>
-                </div>
+        <div class="content-container">
+            <div class="content-content container">
+              <div>
+                <fade-transition>
+                  <div class="content-items-mosaic" v-show="item_show">
+                    <a class="item-card" v-for="item in items" :href="item.link" v-tooltip.top="item.description">
+                      <div class="card-header">
+                          <img :src="item.image" :alt="item.title">
+                      </div>
+                      <div class="card-content">
+                        <div>{{item.title}}</div>
+                      </div>
+                    </a>
+                  </div>
+                </fade-transition>
+              </div>
+              <div class="content-nav">
+                <ul>
+                  <li @click="setTagView('all')" v-bind:class="{selected:is_all_selected}">
+                    All
+                  </li>
+                  <li v-for="tag in tags" @click="setTagView(tag)" v-bind:class="{selected:tag_selected[tag.slug]}">
+                    {{tag.title}}
+                  </li>
+                </ul>
               </div>
             </div>
-          </fade-transition>
-          <div class="content-nav">
-            <ul>
-              <li @click="setTagView('all')" v-bind:class="{selected:is_all_selected}">
-                All
-              </li>
-              <li v-for="tag in tags" @click="setTagView(tag)" v-bind:class="{selected:tag_selected[tag.slug]}">
-                {{tag.title}}
-              </li>
-            </ul>
+        </div>
+        <div class="footer-container">
+          <div class="footer-content container">
+            <div class="footer-logo">
+              <a href="https://lefuturiste.fr"><img src="https://src.lefuturiste.fr/images/lefuturiste-300-300.png" alt="logo"/></a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                  <li><a href="https://github.com/lefuturiste/whatiuse">Sources</a></li>
+                  <li><a href="https://lefuturiste.fr">Web site</a></li>
+                  <li><a href="https://lefuturiste.fr/twitter">Twitter</a></li>
+                </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="footer-container" v-show="item_show">
-        <div class="footer-content container">
-          <div class="footer-logo">
-            <a href="https://lefuturiste.fr"><img src="https://src.lefuturiste.fr/images/lefuturiste-300-300.png" alt="logo"/></a>
-          </div>
-          <div class="footer-links">
-              <ul>
-                <li><a href="https://github.com/lefuturiste/whatiuse">Sources</a></li>
-                <li><a href="https://lefuturiste.fr">Site Web</a></li>
-                <li><a href="https://lefuturiste.fr/twitter">Twitter</a></li>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </div>
     </scale-transition>
   </div>
 </template>
@@ -93,20 +95,20 @@ export default {
   methods: {
     setTagView: function (tag) {
       this.item_show = false
-      this.tag_selected = []
-      if(tag == "all"){
-        this.items = this.items_all
-        this.is_all_selected = true
-      }else{
-        this.is_all_selected = false
-        this.items = this.items_all.filter((item) => {
-          return item.tag === tag.slug
-        })
-        this.tag_selected[tag.slug] = true
-      }
       setTimeout(() => {
+        this.tag_selected = []
+        if(tag == "all"){
+          this.items = this.items_all
+          this.is_all_selected = true
+        }else{
+          this.is_all_selected = false
+          this.items = this.items_all.filter((item) => {
+            return item.tag === tag.slug
+          })
+          this.tag_selected[tag.slug] = true
+        }
         this.item_show = true
-      }, 200)
+      }, 400)
     }
   }
 }
@@ -115,10 +117,12 @@ export default {
 <style lang="scss">
  @import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
  @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
- @import "../node_modules/normalize.css/normalize.css";
+ @import "~normalize.css/normalize.css";
+ @import "~vue-directive-tooltip/css/index.css";
 
  $border-color: #ecf0f1;
  $text-color: #2c3e50;
+
 
  body {
     font-family: 'Lato', sans-serif;
@@ -190,6 +194,8 @@ export default {
        grid-gap: 10px;
      }
      .item-card {
+       color: $text-color;
+       text-decoration: none;
        border-radius: $item-card-border-radius;
        border: 1px solid $item-card-border;
        padding-left: 10%;
@@ -212,7 +218,11 @@ export default {
          padding-bottom: 15px;
          font-weight: 100;
        }
-
+       transition: 0.2s opacity;
+     }
+     .item-card:hover {
+       opacity: 0.8;
+       transition: 0.2s opacity;
      }
      // .item-card:last-of-type{
      //     border-right: 1px solid $item-card-border;
@@ -265,6 +275,7 @@ export default {
  }
 
  .footer-container {
+   margin-top: 3.5em;
    background-color: #ecf0f1;
    border-top: 1px solid #bdc3c7;
    padding-top: 1.5em;

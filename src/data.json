@@ -6,7 +6,27 @@
    },
    {
      "slug": "tool",
-     "title": "Tools"
+     "title": "Development tools"
+   },
+   {
+     "slug": "platform",
+     "title": "Platforms/Services"
+   },
+   {
+     "slug": "database",
+     "title": "Databases"
+   },
+   {
+     "slug": "front-end",
+     "title": "Front end"
+   },
+   {
+     "slug": "back-end",
+     "title": "Back end"
+   },
+   {
+     "slug": "devops",
+     "title": "Devops/Linux"
    }
  ],
  "items": [
@@ -36,155 +56,91 @@
      "description": "A PHP framework",
      "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
      "link": "https://laravel.com",
-     "tag": "lang"
+     "tag": "back-end"
    },
    {
      "title": "Node Package Manager",
-     "description": "The package manager for node.js",
+     "description": "Package manager for node.js",
      "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-     "link": "https://laravel.com",
-     "tag": "lang"
-   },
-     {
-       "title": "Insominia",
-       "description": "A http client to debug API",
-       "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cmVjdCBpZD0iYXBwLWljb24iIHg9IjAiIHk9IjAiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgc3R5bGU9ImZpbGw6bm9uZTsiLz48Y2xpcFBhdGggaWQ9Il9jbGlwMSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjX2NsaXAxKSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIHN0eWxlPSJmaWxsOiNmZmY7Ii8+PHBhdGggZD0iTTQxLjk0NSw4LjAzMmMxLjk3NiwtMC4yOTcgMy45OTcsLTAuNDUxIDYuMDU1LC0wLjQ1MWMyMi4zMDgsMCA0MC40MTksMTguMTExIDQwLjQxOSw0MC40MTljMCwyMi4zMDggLTE4LjExMSw0MC40MTkgLTQwLjQxOSw0MC40MTljLTIyLjMwOCwwIC00MC40MTksLTE4LjExMSAtNDAuNDE5LC00MC40MTljMCwtMi4wNTggMC4xNTQsLTQuMDc5IDAuNDUxLC02LjA1NWM0LjI0MywzLjc2NyA5LjgyNiw2LjA1NSAxNS45NCw2LjA1NWMxMy4yNjIsMCAyNC4wMjgsLTEwLjc2NiAyNC4wMjgsLTI0LjAyOGMwLC02LjExNCAtMi4yODgsLTExLjY5NyAtNi4wNTUsLTE1Ljk0WiIgc3R5bGU9ImZpbGw6IzU4NDliZTsiLz48L2c+PC9zdmc+",
-       "link": "https://insomnia.rest/",
-       "tag": "tool"
-     },
-     {
-       "title": "Postman",
-       "description": "A http client to debug API",
-       "image": "https://www.getpostman.com/img/v2/logo-mark.svg",
-       "link": "https://www.getpostman.com",
-       "tag": "tool"
-     },
-     {
-       "title": "Ruby",
-       "description": "A cool programming language",
-       "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-       "link": "https://www.ruby-lang.org/",
-       "tag": "lang"
-     },
-     {
-       "title": "Laravel",
-       "description": "A PHP framework",
-       "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
-       "link": "https://laravel.com",
-       "tag": "lang"
-     },
-     {
-       "title": "Node Package Manager",
-       "description": "The package manager for node.js",
-       "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-       "link": "https://laravel.com",
-       "tag": "lang"
-     },
-       {
-         "title": "Insominia",
-         "description": "A http client to debug API",
-         "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cmVjdCBpZD0iYXBwLWljb24iIHg9IjAiIHk9IjAiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgc3R5bGU9ImZpbGw6bm9uZTsiLz48Y2xpcFBhdGggaWQ9Il9jbGlwMSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjX2NsaXAxKSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIHN0eWxlPSJmaWxsOiNmZmY7Ii8+PHBhdGggZD0iTTQxLjk0NSw4LjAzMmMxLjk3NiwtMC4yOTcgMy45OTcsLTAuNDUxIDYuMDU1LC0wLjQ1MWMyMi4zMDgsMCA0MC40MTksMTguMTExIDQwLjQxOSw0MC40MTljMCwyMi4zMDggLTE4LjExMSw0MC40MTkgLTQwLjQxOSw0MC40MTljLTIyLjMwOCwwIC00MC40MTksLTE4LjExMSAtNDAuNDE5LC00MC40MTljMCwtMi4wNTggMC4xNTQsLTQuMDc5IDAuNDUxLC02LjA1NWM0LjI0MywzLjc2NyA5LjgyNiw2LjA1NSAxNS45NCw2LjA1NWMxMy4yNjIsMCAyNC4wMjgsLTEwLjc2NiAyNC4wMjgsLTI0LjAyOGMwLC02LjExNCAtMi4yODgsLTExLjY5NyAtNi4wNTUsLTE1Ljk0WiIgc3R5bGU9ImZpbGw6IzU4NDliZTsiLz48L2c+PC9zdmc+",
-         "link": "https://insomnia.rest/",
-         "tag": "tool"
-       },
-       {
-         "title": "Postman",
-         "description": "A http client to debug API",
-         "image": "https://www.getpostman.com/img/v2/logo-mark.svg",
-         "link": "https://www.getpostman.com",
-         "tag": "tool"
-       },
-       {
-         "title": "Ruby",
-         "description": "A cool programming language",
-         "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-         "link": "https://www.ruby-lang.org/",
-         "tag": "lang"
-       },
-       {
-         "title": "Laravel",
-         "description": "A PHP framework",
-         "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
-         "link": "https://laravel.com",
-         "tag": "lang"
-       },
-       {
-         "title": "Node Package Manager",
-         "description": "The package manager for node.js",
-         "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-         "link": "https://laravel.com",
-         "tag": "lang"
-       },
-   {
-     "title": "Insominia",
-     "description": "A http client to debug API",
-     "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cmVjdCBpZD0iYXBwLWljb24iIHg9IjAiIHk9IjAiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgc3R5bGU9ImZpbGw6bm9uZTsiLz48Y2xpcFBhdGggaWQ9Il9jbGlwMSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjX2NsaXAxKSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIHN0eWxlPSJmaWxsOiNmZmY7Ii8+PHBhdGggZD0iTTQxLjk0NSw4LjAzMmMxLjk3NiwtMC4yOTcgMy45OTcsLTAuNDUxIDYuMDU1LC0wLjQ1MWMyMi4zMDgsMCA0MC40MTksMTguMTExIDQwLjQxOSw0MC40MTljMCwyMi4zMDggLTE4LjExMSw0MC40MTkgLTQwLjQxOSw0MC40MTljLTIyLjMwOCwwIC00MC40MTksLTE4LjExMSAtNDAuNDE5LC00MC40MTljMCwtMi4wNTggMC4xNTQsLTQuMDc5IDAuNDUxLC02LjA1NWM0LjI0MywzLjc2NyA5LjgyNiw2LjA1NSAxNS45NCw2LjA1NWMxMy4yNjIsMCAyNC4wMjgsLTEwLjc2NiAyNC4wMjgsLTI0LjAyOGMwLC02LjExNCAtMi4yODgsLTExLjY5NyAtNi4wNTUsLTE1Ljk0WiIgc3R5bGU9ImZpbGw6IzU4NDliZTsiLz48L2c+PC9zdmc+",
-     "link": "https://insomnia.rest/",
-     "tag": "tool"
+     "link": "https://npm.com",
+     "tag": "platform"
    },
    {
-     "title": "Postman",
-     "description": "A http client to debug API",
-     "image": "https://www.getpostman.com/img/v2/logo-mark.svg",
-     "link": "https://www.getpostman.com",
-     "tag": "tool"
+     "title": "Composer",
+     "description": "Dependencies manager for php",
+     "image":"https://i.imgur.com/GsJaOYR.png",
+     "link": "https://getcomposer.org",
+     "tag": "platform"
    },
    {
-     "title": "Ruby",
-     "description": "A cool programming language",
-     "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-     "link": "https://www.ruby-lang.org/",
+     "title": "Python",
+     "image": "https://4.bp.blogspot.com/-S3uiv1HcBdE/WGuK81sByhI/AAAAAAAAAkM/v40amaRqALIp1YlSAn4BhJf575ajoCy9ACLcB/s1600/python.png",
+     "description": "Programming language",
+     "link": "https://www.python.org/",
      "tag": "lang"
    },
    {
-     "title": "Laravel",
-     "description": "A PHP framework",
-     "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
-     "link": "https://laravel.com",
+     "title": "PHP",
+     "image": "https://assets-cc.cellar.services.clever-cloud.com/runtimes-svg/php.svg",
+     "description": "Programming language",
+     "link": "https://php.net",
      "tag": "lang"
    },
    {
-     "title": "Node Package Manager",
-     "description": "The package manager for node.js",
-     "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-     "link": "https://laravel.com",
-     "tag": "lang"
-   },
-
-   {
-     "title": "Insominia",
-     "description": "A http client to debug API",
-     "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cmVjdCBpZD0iYXBwLWljb24iIHg9IjAiIHk9IjAiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgc3R5bGU9ImZpbGw6bm9uZTsiLz48Y2xpcFBhdGggaWQ9Il9jbGlwMSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjX2NsaXAxKSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIHN0eWxlPSJmaWxsOiNmZmY7Ii8+PHBhdGggZD0iTTQxLjk0NSw4LjAzMmMxLjk3NiwtMC4yOTcgMy45OTcsLTAuNDUxIDYuMDU1LC0wLjQ1MWMyMi4zMDgsMCA0MC40MTksMTguMTExIDQwLjQxOSw0MC40MTljMCwyMi4zMDggLTE4LjExMSw0MC40MTkgLTQwLjQxOSw0MC40MTljLTIyLjMwOCwwIC00MC40MTksLTE4LjExMSAtNDAuNDE5LC00MC40MTljMCwtMi4wNTggMC4xNTQsLTQuMDc5IDAuNDUxLC02LjA1NWM0LjI0MywzLjc2NyA5LjgyNiw2LjA1NSAxNS45NCw2LjA1NWMxMy4yNjIsMCAyNC4wMjgsLTEwLjc2NiAyNC4wMjgsLTI0LjAyOGMwLC02LjExNCAtMi4yODgsLTExLjY5NyAtNi4wNTUsLTE1Ljk0WiIgc3R5bGU9ImZpbGw6IzU4NDliZTsiLz48L2c+PC9zdmc+",
-     "link": "https://insomnia.rest/",
-     "tag": "tool"
+     "title": "MongoDB",
+     "image": "http://static.tumblr.com/lbtm3t2/8PAn0kziu/mongodb-logo.png",
+     "description": "NoSQL Database",
+     "link": "https://www.mongodb.com/",
+     "tag": "database"
    },
    {
-     "title": "Postman",
-     "description": "A http client to debug API",
-     "image": "https://www.getpostman.com/img/v2/logo-mark.svg",
-     "link": "https://www.getpostman.com",
-     "tag": "tool"
+     "title": "MySQL",
+     "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mysql-dolphin-square.svg",
+     "description": "Classic SQL Database",
+     "link": "https://mysql.com",
+     "tag": "database"
    },
    {
-     "title": "Ruby",
-     "description": "A cool programming language",
-     "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-     "link": "https://www.ruby-lang.org/",
-     "tag": "lang"
+     "title": "ElasticSearch",
+     "image": "https://i.imgur.com/lh7ZL0Q.png",
+     "description": "Classic SQL Database",
+     "link": "https://elastic.co",
+     "tag": "database"
    },
    {
-     "title": "Laravel",
-     "description": "A PHP framework",
-     "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
-     "link": "https://laravel.com",
-     "tag": "lang"
+     "title": "Vue.js",
+     "image": "https://i.imgur.com/gBchSjr.png",
+     "description": "Progressive webapp javascript framework",
+     "link": "http://vuejs.org/",
+     "tag": "front-end"
    },
    {
-     "title": "Node Package Manager",
-     "description": "The package manager for node.js",
-     "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-     "link": "https://laravel.com",
-     "tag": "lang"
+     "title": "JavaScript",
+     "image": "http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+     "description": "Programming language",
+     "link": "https://en.wikipedia.org/wiki/JavaScript",
+     "tag": "front-end"
+   },
+   {
+     "title": "Docker",
+     "image": "https://i.imgur.com/1X8k8dS.png",
+     "description": "Containerization platform",
+     "link": "https://docker.com",
+     "tag": "devops"
+   },
+   {
+     "title": "GitLab",
+     "image": "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png",
+     "description": "Git-repository manager",
+     "link": "https://about.gitlab.com",
+     "tag": "platform"
+   },
+   {
+     "title": "Node.js",
+     "image": "https://i.imgur.com/k4XlV90.png",
+     "description": "JavaScript runtime",
+     "link": "https://nodejs.org/en/about/",
+     "tag": "back-end"
    }
  ]
 }
