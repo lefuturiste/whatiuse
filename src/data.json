@@ -141,6 +141,13 @@
      "description": "JavaScript runtime",
      "link": "https://nodejs.org/en/about/",
      "tag": "back-end"
+   },
+   {
+     "title": "Travis-CI",
+     "image": "https://styleguide.travis-ci.com/images/logos/travis-footer-logo-new.svg",
+     "description": "Continuous Integration and Continuous deployment platform",
+     "link": "https://travis-ci.com",
+     "tag": "tool"
    }
  ]
 }
