@@ -85,7 +85,7 @@ export default {
   },
   created () {
     var data = require('./data.json')
-    this.items = data.items
+    this.items = this.shuffle(data.items)
     this.items_all = data.items
     this.tags = data.tags
     setTimeout(() => {
@@ -93,6 +93,17 @@ export default {
     }, 200)
   },
   methods: {
+    shuffle: function (array) {
+      let counter = array.length;
+      while (counter > 0) {
+          let index = Math.floor(Math.random() * counter);
+          counter--;
+          let temp = array[counter];
+          array[counter] = array[index];
+          array[index] = temp;
+      }
+      return array;
+    },
     setTagView: function (tag) {
       this.item_show = false
       setTimeout(() => {
