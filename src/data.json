@@ -1,188 +1,246 @@
 {
- "tags": [
-   {
+  "tags": [{
       "slug": "lang",
       "title": "Programming languages"
-   },
-   {
-     "slug": "tool",
-     "title": "Development tools"
-   },
-   {
-     "slug": "platform",
-     "title": "Platforms/Services"
-   },
-   {
-     "slug": "database",
-     "title": "Databases"
-   },
-   {
-     "slug": "front-end",
-     "title": "Front end"
-   },
-   {
-     "slug": "back-end",
-     "title": "Back end"
-   },
-   {
-     "slug": "devops",
-     "title": "Devops/Linux"
-   }
- ],
- "items": [
-   {
-     "title": "Insominia",
-     "description": "A http client to debug API",
-     "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCA5NiA5NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxuczpzZXJpZj0iaHR0cDovL3d3dy5zZXJpZi5jb20vIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cmVjdCBpZD0iYXBwLWljb24iIHg9IjAiIHk9IjAiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgc3R5bGU9ImZpbGw6bm9uZTsiLz48Y2xpcFBhdGggaWQ9Il9jbGlwMSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjX2NsaXAxKSI+PGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIHN0eWxlPSJmaWxsOiNmZmY7Ii8+PHBhdGggZD0iTTQxLjk0NSw4LjAzMmMxLjk3NiwtMC4yOTcgMy45OTcsLTAuNDUxIDYuMDU1LC0wLjQ1MWMyMi4zMDgsMCA0MC40MTksMTguMTExIDQwLjQxOSw0MC40MTljMCwyMi4zMDggLTE4LjExMSw0MC40MTkgLTQwLjQxOSw0MC40MTljLTIyLjMwOCwwIC00MC40MTksLTE4LjExMSAtNDAuNDE5LC00MC40MTljMCwtMi4wNTggMC4xNTQsLTQuMDc5IDAuNDUxLC02LjA1NWM0LjI0MywzLjc2NyA5LjgyNiw2LjA1NSAxNS45NCw2LjA1NWMxMy4yNjIsMCAyNC4wMjgsLTEwLjc2NiAyNC4wMjgsLTI0LjAyOGMwLC02LjExNCAtMi4yODgsLTExLjY5NyAtNi4wNTUsLTE1Ljk0WiIgc3R5bGU9ImZpbGw6IzU4NDliZTsiLz48L2c+PC9zdmc+",
-     "link": "https://insomnia.rest/",
-     "tag": "tool"
-   },
-   {
-     "title": "Postman",
-     "description": "A http client to debug API",
-     "image": "https://www.getpostman.com/img/v2/logo-mark.svg",
-     "link": "https://www.getpostman.com",
-     "tag": "tool"
-   },
-   {
-     "title": "Ruby",
-     "description": "A cool programming language",
-     "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg",
-     "link": "https://www.ruby-lang.org/",
-     "tag": "lang"
-   },
-   {
-     "title": "Laravel",
-     "description": "A PHP framework",
-     "image": "https://raw.githubusercontent.com/laravel/art/master/legacy/laravel-four-icon.png",
-     "link": "https://laravel.com",
-     "tag": "back-end"
-   },
-   {
-     "title": "Node Package Manager",
-     "description": "Package manager for node.js",
-     "image":"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5OTAgOTkwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2NiMzgzNzt9LmNscy0ye2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPm48L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTAsOTkwVjBIOTkwVjk5MFpNMTg2LjE5LDE4NS41M1Y4MDNoMzEyVjMxNC4yOUg2ODB2NDg4LjhIODAzLjc4VjE4NS41M1oiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xODYuMTksMTg1LjUzaDYxNy42VjgwMy4wOUg2ODBWMzE0LjI5SDQ5OC4xN1Y4MDNoLTMxMloiLz48L3N2Zz4=",
-     "link": "https://npm.com",
-     "tag": "platform"
-   },
-   {
-     "title": "Composer",
-     "description": "Dependencies manager for php",
-     "image":"https://i.imgur.com/GsJaOYR.png",
-     "link": "https://getcomposer.org",
-     "tag": "platform"
-   },
-   {
-     "title": "Python",
-     "image": "https://4.bp.blogspot.com/-S3uiv1HcBdE/WGuK81sByhI/AAAAAAAAAkM/v40amaRqALIp1YlSAn4BhJf575ajoCy9ACLcB/s1600/python.png",
-     "description": "Programming language",
-     "link": "https://www.python.org/",
-     "tag": "lang"
-   },
-   {
-     "title": "PHP",
-     "image": "https://assets-cc.cellar.services.clever-cloud.com/runtimes-svg/php.svg",
-     "description": "Programming language",
-     "link": "https://php.net",
-     "tag": "lang"
-   },
-   {
-     "title": "MongoDB",
-     "image": "https://static.tumblr.com/lbtm3t2/8PAn0kziu/mongodb-logo.png",
-     "description": "NoSQL Database",
-     "link": "https://www.mongodb.com/",
-     "tag": "database"
-   },
-   {
-     "title": "MySQL",
-     "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mysql-dolphin-square.svg",
-     "description": "Classic SQL Database",
-     "link": "https://mysql.com",
-     "tag": "database"
-   },
-   {
-     "title": "ElasticSearch",
-     "image": "https://i.imgur.com/lh7ZL0Q.png",
-     "description": "Classic SQL Database",
-     "link": "https://elastic.co",
-     "tag": "database"
-   },
-   {
-     "title": "Vue.js",
-     "image": "https://i.imgur.com/gBchSjr.png",
-     "description": "Progressive webapp javascript framework",
-     "link": "http://vuejs.org/",
-     "tag": "front-end"
-   },
-   {
-     "title": "JavaScript",
-     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-     "description": "Programming language",
-     "link": "https://en.wikipedia.org/wiki/JavaScript",
-     "tag": "front-end"
-   },
-   {
-     "title": "Docker",
-     "image": "https://i.imgur.com/1X8k8dS.png",
-     "description": "Containerization platform",
-     "link": "https://docker.com",
-     "tag": "devops"
-   },
-   {
-     "title": "GitLab",
-     "image": "https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png",
-     "description": "Git-repository manager",
-     "link": "https://about.gitlab.com",
-     "tag": "platform"
-   },
-   {
-     "title": "Node.js",
-     "image": "https://i.imgur.com/k4XlV90.png",
-     "description": "JavaScript runtime",
-     "link": "https://nodejs.org/en/about/",
-     "tag": "back-end"
-   },
-   {
-     "title": "Cloudflare",
-     "description": "Web proxy and DNS manager",
-     "image": "https://i.imgur.com/VSSM0s3.jpg",
-     "link": "https://cloudflare.com",
-     "tag": "platform"
-   },
-   {
-     "title": "Webpack",
-     "description": "Assets management and compiler",
-     "link": "https://webpack.com",
-     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NzQgODc1LjciPjx0aXRsZT5pY29uPC90aXRsZT48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMzg3IDBsMzg3IDIxOC45djQzNy45TDM4NyA4NzUuNyAwIDY1Ni44VjIxOC45eiIvPjxwYXRoIGZpbGw9IiM4ZWQ2ZmIiIGQ9Ik03MDQuOSA2NDEuN0wzOTkuOCA4MTQuM1Y2NzkuOWwxOTAuMS0xMDQuNiAxMTUgNjYuNHptMjAuOS0xOC45VjI2MS45bC0xMTEuNiA2NC41djIzMmwxMTEuNiA2NC40ek02Ny45IDY0MS43TDM3MyA4MTQuM1Y2NzkuOUwxODIuOCA1NzUuMyA2Ny45IDY0MS43ek00NyA2MjIuOFYyNjEuOWwxMTEuNiA2NC41djIzMkw0NyA2MjIuOHptMTMuMS0zODQuM0wzNzMgNjEuNXYxMjkuOUwxNzIuNSAzMDEuN2wtMS42LjktMTEwLjgtNjQuMXptNjUyLjYgMGwtMzEyLjktMTc3djEyOS45bDIwMC41IDExMC4yIDEuNi45IDExMC44LTY0eiIvPjxwYXRoIGZpbGw9IiMxYzc4YzAiIGQ9Ik0zNzMgNjQ5LjNMMTg1LjQgNTQ2LjFWMzQxLjhMMzczIDQ1MC4xdjE5OS4yem0yNi44IDBsMTg3LjYtMTAzLjFWMzQxLjhMMzk5LjggNDUwLjF2MTk5LjJ6bS0xMy40LTIwN3pNMTk4LjEgMzE4LjJsMTg4LjMtMTAzLjUgMTg4LjMgMTAzLjUtMTg4LjMgMTA4LjctMTg4LjMtMTA4Ljd6Ii8+PC9zdmc+",
-     "tag": "front-end"
-   },
-   {
-     "title": "Sass",
-     "description": "CSS Pre-Processor",
-     "image": "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png",
-     "link": "https://sass-lang.com/",
-     "tag": "front-end"
-   },
-   {
-     "title": "Nextcloud",
-     "description": "Open source and self-hosted web cloud",
-     "link": "https://nextcloud.com",
-     "tag": "platform",
-     "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KCjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0iTGF5ZXJfMSIKICAgeD0iMHB4IgogICB5PSIwcHgiCiAgIHZpZXdCb3g9IjAgMCAxNTAuMDAwMDIgMTQ5Ljk5OTk4IgogICBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxOTYuNiA3MiIKICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45MSByMTM3MjUiCiAgIHNvZGlwb2RpOmRvY25hbWU9Im5leHRjbG91ZC1sb2dvLnN2ZyIKICAgd2lkdGg9IjQuMjMzMzMzNmNtIgogICBoZWlnaHQ9IjQuMjMzMzMzMWNtIgogICBpbmtzY2FwZTpleHBvcnQtZmlsZW5hbWU9Im5leHRjbG91ZC1sb2dvLnBuZyIKICAgaW5rc2NhcGU6ZXhwb3J0LXhkcGk9IjMwMC4wOTYzMSIKICAgaW5rc2NhcGU6ZXhwb3J0LXlkcGk9IjMwMC4wOTYzMSI+PG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhMjAiPjxyZGY6UkRGPjxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj48ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD48ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+PGRjOnRpdGxlPjwvZGM6dGl0bGU+PC9jYzpXb3JrPjwvcmRmOlJERj48L21ldGFkYXRhPjxkZWZzCiAgICAgaWQ9ImRlZnMxOCIgLz48c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjI1NjAiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iMTM1OSIKICAgICBpZD0ibmFtZWR2aWV3MTYiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjIuODI4NDI3MSIKICAgICBpbmtzY2FwZTpjeD0iLTMyLjU4NDQyOSIKICAgICBpbmtzY2FwZTpjeT0iNzguNjc0MTg0IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9IkxheWVyXzEiCiAgICAgZml0LW1hcmdpbi10b3A9IjAiCiAgICAgZml0LW1hcmdpbi1sZWZ0PSIwIgogICAgIGZpdC1tYXJnaW4tcmlnaHQ9IjAiCiAgICAgZml0LW1hcmdpbi1ib3R0b209IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjI0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIHVuaXRzPSJjbSIKICAgICBpbmtzY2FwZTpzbmFwLWJib3g9InRydWUiCiAgICAgaW5rc2NhcGU6YmJveC1wYXRocz0idHJ1ZSIKICAgICBpbmtzY2FwZTpiYm94LW5vZGVzPSJ0cnVlIgogICAgIGlua3NjYXBlOnNuYXAtYmJveC1lZGdlLW1pZHBvaW50cz0idHJ1ZSIKICAgICBpbmtzY2FwZTpzbmFwLWJib3gtbWlkcG9pbnRzPSJ0cnVlIgogICAgIGlua3NjYXBlOnNuYXAtcGFnZT0idHJ1ZSIgLz48cmVjdAogICAgIHN0eWxlPSJvcGFjaXR5OjE7ZmlsbDojMDA4MmM5O2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIKICAgICBpZD0icmVjdDQxNDUiCiAgICAgd2lkdGg9IjE1MC4wMDAwMiIKICAgICBoZWlnaHQ9IjE1MCIKICAgICB4PSIwIgogICAgIHk9Ii03LjYyOTM5NDVlLTA2IiAvPjxwYXRoCiAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7Zm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LXNpemU6bWVkaXVtO2xpbmUtaGVpZ2h0Om5vcm1hbDtmb250LWZhbWlseTpzYW5zLXNlcmlmO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb246bm9uZTt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDAwMDtsZXR0ZXItc3BhY2luZzpub3JtYWw7d29yZC1zcGFjaW5nOm5vcm1hbDt0ZXh0LXRyYW5zZm9ybTpub25lO2RpcmVjdGlvbjpsdHI7YmxvY2stcHJvZ3Jlc3Npb246dGI7d3JpdGluZy1tb2RlOmxyLXRiO2Jhc2VsaW5lLXNoaWZ0OmJhc2VsaW5lO3RleHQtYW5jaG9yOnN0YXJ0O3doaXRlLXNwYWNlOm5vcm1hbDtjbGlwLXJ1bGU6bm9uemVybztkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO3Zpc2liaWxpdHk6dmlzaWJsZTtvcGFjaXR5OjE7aXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsO2NvbG9yLWludGVycG9sYXRpb246c1JHQjtjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM6bGluZWFyUkdCO3NvbGlkLWNvbG9yOiMwMDAwMDA7c29saWQtb3BhY2l0eToxO2ZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6NS41NjU4OTk4NTtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxO2NvbG9yLXJlbmRlcmluZzphdXRvO2ltYWdlLXJlbmRlcmluZzphdXRvO3NoYXBlLXJlbmRlcmluZzphdXRvO3RleHQtcmVuZGVyaW5nOmF1dG87ZW5hYmxlLWJhY2tncm91bmQ6YWNjdW11bGF0ZSIKICAgICBkPSJtIDc1Ljc1NjA4MywzNy4yODc3MDQgYyAtMTEuODA1MjQ5LDAgLTIxLjgxMTE4Nyw4LjAwMzE4MSAtMjQuOTEyMzUyLDE4Ljg0NjU4OSAtMi42OTUyNDMsLTUuNzUxNTA4IC04LjUzNTkyMiwtOS43ODA5MjIgLTE1LjI2MzM3NSwtOS43ODA5MjIgLTkuMjUxODI0LDAgLTE2Ljg1NzA3Nyw3LjYwNTI1MSAtMTYuODU3MDc3LDE2Ljg1NzA3NCAwLDkuMjUxODI1IDcuNjA1MjUzLDE2Ljg2MDU0NiAxNi44NTcwNzcsMTYuODYwNTQ2IDYuNzI3NDUzLDAgMTIuNTY4MTMyLC00LjAzMTg4MyAxNS4yNjMzNzUsLTkuNzg0Mzk0IDMuMTAxMTY1LDEwLjg0NDIyNCAxMy4xMDcxMDMsMTguODUwMDY0IDI0LjkxMjM1MiwxOC44NTAwNjQgMTEuNzE3OTQ1LDAgMjEuNjcyODU1LC03Ljg4NTEgMjQuODUzMzM3LC0xOC42MDcwMTYgMi43NDUwNSw1LjYyMTkyNyA4LjUxMzQ0LDkuNTQxMzQ2IDE1LjE0NTMzLDkuNTQxMzQ2IDkuMjUxODMsMCAxNi44NjA1NSwtNy42MDg3MjEgMTYuODYwNTUsLTE2Ljg2MDU0NiAwLC05LjI1MTgyMyAtNy42MDg3MiwtMTYuODU3MDc0IC0xNi44NjA1NSwtMTYuODU3MDc0IC02LjYzMTg5LDAgLTEyLjQwMDI4LDMuOTE2OTU5IC0xNS4xNDUzMyw5LjUzNzg3NiBDIDk3LjQyODkzOCw0NS4xNzAxNjUgODcuNDc0MDI4LDM3LjI4NzcwNCA3NS43NTYwODMsMzcuMjg3NzA0IFogbSAwLDkuODk1NSBjIDguOTExNjI1LDAgMTYuMDMwNzI1LDcuMTE1NjQzIDE2LjAzMDcyNSwxNi4wMjcyNDEgMCw4LjkxMTYgLTcuMTE5MSwxNi4wMzA3MTYgLTE2LjAzMDcyNSwxNi4wMzA3MTYgLTguOTExNTg0LDAgLTE2LjAyNzIyNiwtNy4xMTkxMTYgLTE2LjAyNzIyNiwtMTYuMDMwNzE2IDAsLTguOTExNTk4IDcuMTE1NjQyLC0xNi4wMjcyMzkgMTYuMDI3MjI2LC0xNi4wMjcyNDEgeiBtIC00MC4xNzU3MjcsOS4wNjU2NyBjIDMuOTA0Mzc4LDAgNi45NjUwNDMsMy4wNTcxODcgNi45NjUwNDMsNi45NjE1NzEgMCwzLjkwNDM4NSAtMy4wNjA2NjUsNi45NjUwNDUgLTYuOTY1MDQzLDYuOTY1MDQ1IC0zLjkwNDM4OSwwIC02Ljk2MTU4MSwtMy4wNjA2NiAtNi45NjE1ODEsLTYuOTY1MDQ1IDAsLTMuOTA0Mzg0IDMuMDU3MTkyLC02Ljk2MTU3MSA2Ljk2MTU4MSwtNi45NjE1NzEgeiBtIDgwLjE3NDM5NCwwIGMgMy45MDQ0LDAgNi45NjUwNCwzLjA1NzE4NyA2Ljk2NTA0LDYuOTYxNTcxIDAsMy45MDQzODUgLTMuMDYwNjYsNi45NjUwNDUgLTYuOTY1MDQsNi45NjUwNDUgLTMuOTA0MzcsMCAtNi45NjE1NiwtMy4wNjA2NiAtNi45NjE1NiwtNi45NjUwNDUgMCwtMy45MDQzODQgMy4wNTcyMSwtNi45NjE1NzEgNi45NjE1NiwtNi45NjE1NzEgeiIKICAgICBpZD0iWE1MSURfMTA3XyIKICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPjxnCiAgICAgaWQ9Imc0NTcxIgogICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuNDcwMzg1MTksMCwwLDAuNDcwMzg1MTksMzAuMTEyNDgsNzguMDQ3MzMpIgogICAgIHN0eWxlPSJvcGFjaXR5OjE7ZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIj48cGF0aAogICAgICAgaWQ9IlhNTElEXzEyMV8iCiAgICAgICBkPSJtIDM3LjY2OTY2OSw0OC45IGMgNS45LDAgOS4yLDQuMiA5LjIsMTAuNSAwLDAuNiAtMC41LDEuMSAtMS4xLDEuMSBsIC0xNS45LDAgYyAwLjEsNS42IDQsOC44IDguNSw4LjggMi44LDAgNC44LC0xLjIgNS44LC0yIDAuNiwtMC40IDEuMSwtMC4zIDEuNCwwLjMgbCAwLjMsMC41IGMgMC4zLDAuNSAwLjIsMSAtMC4zLDEuNCAtMS4yLDAuOSAtMy44LDIuNCAtNy4zLDIuNCAtNi41LDAgLTExLjUsLTQuNyAtMTEuNSwtMTEuNSAwLjEsLTcuMiA0LjksLTExLjUgMTAuOSwtMTEuNSB6IG0gNi4xLDkuNCBjIC0wLjIsLTQuNiAtMywtNi45IC02LjIsLTYuOSAtMy43LDAgLTYuOSwyLjQgLTcuNiw2LjkgbCAxMy44LDAgeiIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIiAvPjxwYXRoCiAgICAgICBpZD0iWE1MSURfMTE5XyIKICAgICAgIGQ9Im0gNzYuOSw1Mi4xIDAsLTIuNSAwLC01LjIgYyAwLC0wLjcgMC40LC0xLjEgMS4xLC0xLjEgbCAwLjgsMCBjIDAuNywwIDEsMC40IDEsMS4xIGwgMCw1LjIgNC41LDAgYyAwLjcsMCAxLjEsMC40IDEuMSwxLjEgbCAwLDAuMyBjIDAsMC43IC0wLjQsMSAtMS4xLDEgbCAtNC41LDAgMCwxMSBjIDAsNS4xIDMuMSw1LjcgNC44LDUuOCAwLjksMC4xIDEuMiwwLjMgMS4yLDEuMSBsIDAsMC42IGMgMCwwLjcgLTAuMywxIC0xLjIsMSAtNC44LDAgLTcuNywtMi45IC03LjcsLTguMSBsIDAsLTExLjMgeiIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIiAvPjxwYXRoCiAgICAgICBpZD0iWE1MSURfMTE3XyIKICAgICAgIGQ9Im0gOTkuOCw0OC45IGMgMy44LDAgNi4yLDEuNiA3LjMsMi41IDAuNSwwLjQgMC42LDAuOSAwLjEsMS41IGwgLTAuMywwLjUgYyAtMC40LDAuNiAtMC45LDAuNiAtMS41LDAuMiAtMSwtMC43IC0yLjksLTIgLTUuNSwtMiAtNC44LDAgLTguNiwzLjYgLTguNiw4LjkgMCw1LjIgMy44LDguOCA4LjYsOC44IDMuMSwwIDUuMiwtMS40IDYuMiwtMi4zIDAuNiwtMC40IDEsLTAuMyAxLjQsMC4zIGwgMC4zLDAuNCBjIDAuMywwLjYgMC4yLDEgLTAuMywxLjUgLTEuMSwwLjkgLTMuOCwyLjggLTcuOCwyLjggLTYuNSwwIC0xMS41LC00LjcgLTExLjUsLTExLjUgMC4xLC02LjggNS4xLC0xMS42IDExLjYsLTExLjYgeiIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIiAvPjxwYXRoCiAgICAgICBpZD0iWE1MSURfMTE1XyIKICAgICAgIGQ9Im0gMTEzLjEsNDEuOCBjIDAsLTAuNyAtMC40LC0xLjEgMC4zLC0xLjEgbCAwLjgsMCBjIDAuNywwIDEuOCwwLjQgMS44LDEuMSBsIDAsMjMuOSBjIDAsMi44IDEuMywzLjEgMi4zLDMuMiAwLjUsMCAwLjksMC4zIDAuOSwxIGwgMCwwLjcgYyAwLDAuNyAtMC4zLDEuMSAtMS4xLDEuMSAtMS44LDAgLTUsLTAuNiAtNSwtNS40IGwgMCwtMjQuNSB6IgogICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiIC8+PHBhdGgKICAgICAgIGlkPSJYTUxJRF8xMTJfIgogICAgICAgZD0ibSAxMzMuNiw0OC45IGMgNi40LDAgMTEuNiw0LjkgMTEuNiwxMS40IDAsNi42IC01LjIsMTEuNiAtMTEuNiwxMS42IC02LjQsMCAtMTEuNiwtNSAtMTEuNiwtMTEuNiAwLC02LjUgNS4yLC0xMS40IDExLjYsLTExLjQgeiBtIDAsMjAuNCBjIDQuNywwIDguNSwtMy44IDguNSwtOSAwLC01IC0zLjgsLTguNyAtOC41LC04LjcgLTQuNywwIC04LjYsMy44IC04LjYsOC43IDAuMSw1LjEgMy45LDkgOC42LDkgeiIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxIiAvPjxwYXRoCiAgICAgICBpZD0iWE1MSURfMTA5XyIKICAgICAgIGQ9Im0gMTgzLjUsNDguOSBjIDUuMywwIDcuMiw0LjQgNy4yLDQuNCBsIDAuMSwwIGMgMCwwIC0wLjEsLTAuNyAtMC4xLC0xLjcgbCAwLC05LjkgYyAwLC0wLjcgLTAuMywtMS4xIDAuNCwtMS4xIGwgMC44LDAgYyAwLjcsMCAxLjgsMC40IDEuOCwxLjEgbCAwLDI4LjUgYyAwLDAuNyAtMC4zLDEuMSAtMSwxLjEgbCAtMC43LDAgYyAtMC43LDAgLTEuMSwtMC4zIC0xLjEsLTEgbCAwLC0xLjcgYyAwLC0wLjggMC4yLC0xLjQgMC4yLC0xLjQgbCAtMC4xLDAgYyAwLDAgLTEuOSw0LjYgLTcuNiw0LjYgLTUuOSwwIC05LjYsLTQuNyAtOS42LC0xMS41IC0wLjIsLTYuOCAzLjksLTExLjQgOS43LC0xMS40IHogbSAwLjEsMjAuNCBjIDMuNywwIDcuMSwtMi42IDcuMSwtOC45IDAsLTQuNSAtMi4zLC04LjggLTcsLTguOCAtMy45LDAgLTcuMSwzLjIgLTcuMSw4LjggMC4xLDUuNCAyLjksOC45IDcsOC45IHoiCiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MSIgLz48cGF0aAogICAgICAgc29kaXBvZGk6bm9kZXR5cGVzPSJzc3Nzc3Nzc3Nzc2NjY2Njc3NzIgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MSIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBkPSJtIDEsNzEuNCAwLjgsMCBjIDAuNywwIDEuMSwtMC40IDEuMSwtMS4xIGwgMCwtMjEuNDcyMzM1IEMgMi45LDQ1LjQyNzY2NSA2LjYsNDMgMTAuOCw0MyBjIDQuMiwwIDcuOSwyLjQyNzY2NSA3LjksNS44Mjc2NjUgTCAxOC43LDcwLjMgYyAwLDAuNyAwLjQsMS4xIDEuMSwxLjEgbCAwLjgsMCBjIDAuNywwIDEsLTAuNCAxLC0xLjEgbCAwLC0yMS42IGMgMCwtNS43IC01LjcsLTguNSAtMTAuOSwtOC41IGwgMCwwIDAsMCAwLDAgMCwwIEMgNS43LDQwLjIgMCw0MyAwLDQ4LjcgbCAwLDIxLjYgYyAwLDAuNyAwLjMsMS4xIDEsMS4xIHoiCiAgICAgICBpZD0iWE1MSURfMTAzXyIgLz48cGF0aAogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MSIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBkPSJtIDE2Ny45LDQ5LjQgLTAuOCwwIGMgLTAuNywwIC0xLjEsMC40IC0xLjEsMS4xIGwgMCwxMi4xIGMgMCwzLjQgLTIuMiw2LjUgLTYuNSw2LjUgLTQuMiwwIC02LjUsLTMuMSAtNi41LC02LjUgbCAwLC0xMi4xIGMgMCwtMC43IC0wLjQsLTEuMSAtMS4xLC0xLjEgbCAtMC44LDAgYyAtMC43LDAgLTEsMC40IC0xLDEuMSBsIDAsMTIuOSBjIDAsNS43IDQuMiw4LjUgOS40LDguNSBsIDAsMCBjIDAsMCAwLDAgMCwwIDAsMCAwLDAgMCwwIGwgMCwwIGMgNS4yLDAgOS40LC0yLjggOS40LC04LjUgbCAwLC0xMi45IGMgMC4xLC0wLjcgLTAuMywtMS4xIC0xLC0xLjEgeiIKICAgICAgIGlkPSJYTUxJRF8xMDJfIiAvPjxwYXRoCiAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgaWQ9InBhdGg0MTY1LTkiCiAgICAgICBkPSJtIDY4LjkwODIwMyw0OS4yMzU5MzggYyAtMC4yNDQ5NDIsMC4wMzkxIC0wLjQ4MDEwMiwwLjIwMjU4OSAtMC43MDUwNzgsMC40NzA3MDMgbCAtNC4wNDY4NzUsNC44MjQyMTggLTMuMDI5Mjk3LDMuNjA5Mzc1IC00LjU4NTkzNywtNS40NjY3OTYgLTIuNDg4MjgyLC0yLjk2Njc5NyBjIC0wLjIyNDk3NSwtMC4yNjgxMTYgLTAuNDc5NzQ4LC0wLjQxNDcxOCAtMC43NDQxNCwtMC40Mzc1IC0wLjI2NDM5MywtMC4wMjI3OCAtMC41Mzg1MjQsMC4wNzc3NSAtMC44MDY2NDEsMC4zMDI3MzQgbCAtMC42MTMyODEsMC41MTM2NzIgYyAtMC41MzYyMzIsMC40NDk5NTIgLTAuNTA4NTQ1LDAuOTQ4MTQ0IC0wLjA1ODU5LDEuNDg0Mzc1IGwgNC4wNDg4MjgsNC44MjQyMTkgMy4zNTc0MjIsNCAtNC45MTYwMTYsNS44NTc0MjEgYyAtMC4wMDM3LDAuMDA0NCAtMC4wMDYxLDAuMDA5MyAtMC4wMDk4LDAuMDEzNjcgbCAtMi40ODA0NjksMi45NTUwNzggYyAtMC40NDk5NTIsMC41MzYyMzIgLTAuMzk5NTMxLDEuMTAwODMyIDAuMTM2NzE5LDEuNTUwNzgyIGwgMC42MTMyODEsMC41MTE3MTggYyAwLjUzNjIzMSwwLjQ0OTk1MSAxLjAyMjcwNCwwLjMzNzAxIDEuNDcyNjU2LC0wLjE5OTIxOCBsIDQuMDQ2ODc1LC00LjgyNDIxOSAzLjAyOTI5NywtMy42MDkzNzUgNC41ODU5MzgsNS40NjY3OTcgYyAwLjAwMywwLjAwMzYgMC4wMDY3LDAuMDA2MiAwLjAwOTgsMC4wMDk4IGwgMi40ODA0NjksMi45NTcwMzIgYyAwLjQ0OTk1LDAuNTM2MjMxIDEuMDEyNTk1LDAuNTg0NzM1IDEuNTQ4ODI4LDAuMTM0NzY1IGwgMC42MTMyODIsLTAuNTEzNjcxIGMgMC41MzYyMzEsLTAuNDQ5OTUyIDAuNTA4NTQ0LC0wLjk0ODE0NCAwLjA1ODU5LC0xLjQ4NDM3NiBsIC00LjA0ODgyOCwtNC44MjQyMTggLTMuMzU3NDIyLC00IDQuOTE2MDE2LC01Ljg1NzQyMiBjIDAuMDAzNywtMC4wMDQ0IDAuMDA2MSwtMC4wMDkzIDAuMDA5OCwtMC4wMTM2NyBsIDIuNDgwNDY5LC0yLjk1NTA3OCBjIDAuNDQ5OTUyLC0wLjUzNjIzIDAuMzk5NTMyLC0xLjEwMDgzIC0wLjEzNjcxOSwtMS41NTA3ODEgbCAtMC42MTMyODEsLTAuNTEzNjcyIGMgLTAuMjY4MTE1LC0wLjIyNDk3NiAtMC41MjI2MzYsLTAuMzA4NjM2IC0wLjc2NzU3OCwtMC4yNjk1MzEgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiIC8+PC9nPjwvc3ZnPg=="
-   },
-   {
-     "title": "ElectronJs",
-     "description": "Cross platform desktop apps with web technologies",
-     "tag": "front-end",
-     "image": "https://avatars3.githubusercontent.com/u/13409222?s=200&v=4",
-     "link": "https://electronjs.org/"
-   },
-   {
-     "title": "Phpstorm",
-     "description": "A IDE to code beter PHP",
-     "tag": "tool",
-     "image": "https://i.imgur.com/4PwzOkF.png",
-     "link": "https://www.jetbrains.com/phpstorm/"
-   }
- ]
+    },
+    {
+      "slug": "tool",
+      "title": "Development tools"
+    },
+    {
+      "slug": "platform",
+      "title": "Platforms/Services"
+    },
+    {
+      "slug": "database",
+      "title": "Databases"
+    },
+    {
+      "slug": "front-end",
+      "title": "Front end"
+    },
+    {
+      "slug": "back-end",
+      "title": "Back end"
+    },
+    {
+      "slug": "devops",
+      "title": "Devops/Linux"
+    },
+    {
+      "slug": "os",
+      "title": "System"
+    }
+  ],
+  "items": [{
+      "title": "Insomnia",
+      "description": "A http client to debug API",
+      "image": "insomnia.svg",
+      "link": "https://insomnia.rest/",
+      "tag": "tool"
+    },
+    {
+      "title": "Postman",
+      "description": "A http client to debug API",
+      "image": "postman.png",
+      "link": "https://www.getpostman.com",
+      "tag": "tool"
+    },
+    {
+      "title": "Ruby",
+      "description": "A programming language",
+      "image": "ruby.svg",
+      "link": "https://www.ruby-lang.org/",
+      "tag": "lang"
+    },
+    {
+      "title": "Go",
+      "description": "A cool programming language",
+      "image": "golang.svg",
+      "link": "https://www.ruby-lang.org/",
+      "tag": "lang"
+    },
+    {
+      "title": "Laravel",
+      "description": "A PHP framework",
+      "image": "laravel.png",
+      "link": "https://laravel.com",
+      "tag": "back-end"
+    },
+    {
+      "title": "Symfony",
+      "description": "A french PHP framework",
+      "image": "symfony.png",
+      "link": "https://symfony.com",
+      "tag": "back-end"
+    },
+    {
+      "title": "Slim Framework",
+      "description": "A PHP micro-framework",
+      "image": "slim.png",
+      "link": "https://www.slimframework.com/",
+      "tag": "back-end"
+    },
+    {
+      "title": "Node Package Manager",
+      "description": "Package manager for node.js",
+      "image": "npm.svg",
+      "link": "https://npm.com",
+      "tag": "platform"
+    },
+    {
+      "title": "Yarn",
+      "description": "Improved package manager for node.js",
+      "image": "yarn.png",
+      "link": "https://yarnpkg.com/",
+      "tag": "yarn"
+    },
+    {
+      "title": "Composer",
+      "description": "Dependencies manager for php",
+      "image": "composer.png",
+      "link": "https://getcomposer.org",
+      "tag": "platform"
+    },
+    {
+      "title": "Python",
+      "image": "python.svg",
+      "description": "Programming language",
+      "link": "https://www.python.org/",
+      "tag": "lang"
+    },
+    {
+      "title": "PHP",
+      "image": "php.svg",
+      "description": "Programming language",
+      "link": "https://php.net",
+      "tag": "lang"
+    },
+    {
+      "title": "MongoDB",
+      "image": "mongodb.png",
+      "description": "NoSQL Database",
+      "link": "https://www.mongodb.com/",
+      "tag": "database"
+    },
+    {
+      "title": "MySQL",
+      "image": "mysql.svg",
+      "description": "Classic SQL Database",
+      "link": "https://mysql.com",
+      "tag": "database"
+    },
+    {
+      "title": "ElasticSearch",
+      "image": "elasticsearch.png",
+      "description": "A NO-SQL database to create search engine",
+      "link": "https://elastic.co",
+      "tag": "database"
+    },
+    {
+      "title": "Vue.js",
+      "image": "vue.svg",
+      "description": "Progressive webapp javascript framework",
+      "link": "https://vuejs.org/",
+      "tag": "front-end"
+    },
+    {
+      "title": "Nuxt.js",
+      "image": "nuxt.png",
+      "description": "A intuitive Vue framework",
+      "link": "https://nuxtjs.org",
+      "tag": "front-end"
+    },
+    {
+      "title": "JavaScript",
+      "image": "js.png",
+      "description": "Programming language",
+      "link": "https://en.wikipedia.org/wiki/JavaScript",
+      "tag": "front-end"
+    },
+    {
+      "title": "Docker",
+      "image": "docker.png",
+      "description": "Containerization platform",
+      "link": "https://docker.com",
+      "tag": "devops"
+    },
+    {
+      "title": "Fish",
+      "description": "A usefull shell",
+      "image": "fish.png",
+      "link": "https://fishshell.com",
+      "tag": "devops"
+    },
+    {
+      "title": "ArchLinux",
+      "image": "archlinux.svg",
+      "description": "A linux distribution",
+      "link": "https://archlinux.org",
+      "tag": "os"
+    },
+    {
+      "title": "i3wm",
+      "image": "i3wm.svg",
+      "description": "A cool tiling windows manager",
+      "link": "https://i3wm.org",
+      "tag": "os"
+    },
+    {
+      "title": "GitLab",
+      "image": "gitlab.png",
+      "description": "Git-repository manager",
+      "link": "https://about.gitlab.com",
+      "tag": "platform"
+    },
+    {
+      "title": "Node.js",
+      "image": "node.svg",
+      "description": "JavaScript runtime",
+      "link": "https://nodejs.org/en/about/",
+      "tag": "back-end"
+    },
+    {
+      "title": "Cloudflare",
+      "description": "Web proxy and DNS manager",
+      "image": "cloudflare.png",
+      "link": "https://cloudflare.com",
+      "tag": "platform"
+    },
+    {
+      "title": "Webpack",
+      "description": "Assets management and compiler",
+      "link": "https://webpack.com",
+      "image": "webpack.svg",
+      "tag": "front-end"
+    },
+    {
+      "title": "Sass",
+      "description": "CSS Pre-Processor",
+      "image": "sass.png",
+      "link": "https://sass-lang.com/",
+      "tag": "front-end"
+    },
+    {
+      "title": "Nextcloud",
+      "description": "Open source and self-hosted web cloud",
+      "link": "https://nextcloud.com",
+      "tag": "platform",
+      "image": "nextcloud.svg"
+    },
+    {
+      "title": "ElectronJs",
+      "description": "Cross platform desktop apps with web technologies",
+      "tag": "front-end",
+      "image": "electron.png",
+      "link": "https://electronjs.org/"
+    },
+    {
+      "title": "Phpstorm",
+      "description": "A IDE to code beter PHP",
+      "tag": "tool",
+      "image": "phpstorm.png",
+      "link": "https://www.jetbrains.com/phpstorm/"
+    }
+  ]
 }
