@@ -63,14 +63,14 @@
     {
       "title": "Laravel",
       "description": "A PHP framework",
-      "image": "laravel.png",
+      "image": "laravel-sm.png",
       "link": "https://laravel.com",
       "tag": "back-end"
     },
     {
       "title": "Symfony",
       "description": "A french PHP framework",
-      "image": "symfony.png",
+      "image": "symfony-sm.png",
       "link": "https://symfony.com",
       "tag": "back-end"
     },
@@ -98,7 +98,7 @@
     {
       "title": "Composer",
       "description": "Dependencies manager for php",
-      "image": "composer.png",
+      "image": "composer-sm.png",
       "link": "https://getcomposer.org",
       "tag": "platform"
     },
@@ -132,7 +132,7 @@
     },
     {
       "title": "ElasticSearch",
-      "image": "elasticsearch.png",
+      "image": "elasticsearch-sm.png",
       "description": "A NO-SQL database to create search engine",
       "link": "https://elastic.co",
       "tag": "database"
@@ -153,14 +153,14 @@
     },
     {
       "title": "JavaScript",
-      "image": "js.png",
+      "image": "js-sm.png",
       "description": "Programming language",
       "link": "https://en.wikipedia.org/wiki/JavaScript",
       "tag": "front-end"
     },
     {
       "title": "Docker",
-      "image": "docker.png",
+      "image": "docker-sm.png",
       "description": "Containerization platform",
       "link": "https://docker.com",
       "tag": "devops"
@@ -168,7 +168,7 @@
     {
       "title": "Fish",
       "description": "A usefull shell",
-      "image": "fish.png",
+      "image": "fish-sm.png",
       "link": "https://fishshell.com",
       "tag": "devops"
     },
@@ -188,7 +188,7 @@
     },
     {
       "title": "GitLab",
-      "image": "gitlab.png",
+      "image": "gitlab-sm.png",
       "description": "Git-repository manager",
       "link": "https://about.gitlab.com",
       "tag": "platform"
@@ -203,7 +203,7 @@
     {
       "title": "Cloudflare",
       "description": "Web proxy and DNS manager",
-      "image": "cloudflare.png",
+      "image": "cloudflare-sm.png",
       "link": "https://cloudflare.com",
       "tag": "platform"
     },
@@ -239,7 +239,7 @@
       "title": "Phpstorm",
       "description": "A IDE to code beter PHP",
       "tag": "tool",
-      "image": "phpstorm.png",
+      "image": "phpstorm-sm.png",
       "link": "https://www.jetbrains.com/phpstorm/"
     }
   ]
