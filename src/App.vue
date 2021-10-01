@@ -88,7 +88,7 @@ export default {
   },
   data () {
     return {
-      imageBaseUrl: 'https://whatiuse.lefuturiste.fr/images',
+      imageBaseUrl: '/images',
       item_show: true,
       items: [],
       items_all: [],
@@ -106,13 +106,7 @@ export default {
     setTimeout(() => {
       this.show = true
     }, 200)
-    if (localStorage.getItem('imageBaseUrl') !== null) {
-      this.imageBaseUrl = localStorage.getItem('imageBaseUrl')
-    }
-    window.setImageBaseUrl = url => {
-      localStorage.setItem('imageBaseUrl', url)
-    }
-    setImageBaseUrl('http://localhost:8002')
+    console.log(process)
   },
   methods: {
     shuffle: function (array) {
